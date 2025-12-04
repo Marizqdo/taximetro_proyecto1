@@ -17,8 +17,13 @@ def taximeter():
     """
     Función para manejar y mostrar las opciones del taxímetro
     """
-    print("Welcome to the F5 taximeter") 
-    print("Available commands: 'start', 'stop', 'move', 'finish', 'exit'\n")
+    print("Welcome to the F5 taximeter!") # Bienvenida 
+    print("Available commands: ")   # Menú
+    print("   start - start a trip")
+    print("   stop - stop the taxi")
+    print("   move - move the taxi")
+    print("   finish -finish the trip")
+    print("   exit -exit the program\n")
     
     # Variables de control de viaje
     trip_activate = False # Indica si hay un viaje en curso
@@ -91,7 +96,7 @@ def taximeter():
             state = None
             
         elif command =="exit":
-            print("Exiting the program. Good bye!") # Sale del programa
+            print("Exiting the program. Good bye!") # Sale del programa. Despediada
             break
         
         else:
