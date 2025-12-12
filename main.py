@@ -56,7 +56,7 @@ def taximeter():
             trip = None
         
         elif command == "exit":
-            print("Exiting the program. Good bye!")
+            print("Exiting the program. Goodbye!")
             break
         
         else:
