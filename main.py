@@ -1,4 +1,4 @@
-from src.logica import calculate_fare, start_trip, change_state, finish_trip
+from logica import calculate_fare, start_trip, change_state, finish_trip
 
 def taximeter():
     """
@@ -56,7 +56,7 @@ def taximeter():
             trip = None
         
         elif command == "exit":
-            print("Exiting the program. Good bye!")
+            print("Exiting the program. Goodbye!")
             break
         
         else:

@@ -1,4 +1,4 @@
-from src.logica import calculate_fare
+from logica import calculate_fare
 import time # Importa el módulo 'time' para medir duraciones
 
 def calculate_fare(seconds_stopped, seconds_moving):
