@@ -4,6 +4,8 @@
 # Cálculo de tarifas
 # --------------------------------------------------------------------------------
 
+import time
+
 def calculate_fare(state, elapsed_time):
     """
     Calcula la tarifa según el estado y el tiempo transcurrido.
