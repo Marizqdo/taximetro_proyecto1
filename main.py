@@ -10,7 +10,7 @@ def taximeter():
     print("   stop - stop the taxi")
     print("   move - move the taxi")
     print("   finish - finish the trip")
-    print("   exit - exit the program\n")
+    print("   exit - exit the  afsasfasf program\n")
     
     trip_activate = False  # Indica si hay un viaje activo
     trip = None            # Diccionario que guarda info del viaje actual
